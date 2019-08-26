@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main() {
+	int counter;
+	for(counter=0;counter<7;counter++) {
+		for(int i=0;i<3;i++) {
+			printf("counter=%d 1<<i=%d",counter,(1<<i));
+	//		if(counter&(1<<i))
+	//			printf("%d\n",1<<i);
+		}
+	}
+return 0;
+}
