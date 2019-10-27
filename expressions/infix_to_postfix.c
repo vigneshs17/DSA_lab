@@ -1,5 +1,4 @@
 //Infix expression to postfix expression
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
