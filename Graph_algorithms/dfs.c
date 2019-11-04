@@ -12,6 +12,7 @@ void DFS(int i) {
             DFS(j);
     }
 }
+
 int main() {
     int i,j,v1,v2;
     printf("Graphs\n");

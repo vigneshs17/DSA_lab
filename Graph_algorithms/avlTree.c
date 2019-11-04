@@ -35,7 +35,7 @@ struct Node* minValueNode(struct Node* node) {
   
     return current; 
 }
-// function that creates and returns a new node*/
+// function that creates and returns a new node
 struct Node* newNode(int key) { 
 	struct Node* node = (struct Node*)malloc(sizeof(struct Node)); 
 	node->key = key; 
