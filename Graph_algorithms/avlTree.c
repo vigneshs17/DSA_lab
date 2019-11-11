@@ -101,8 +101,7 @@ struct Node* insert(struct Node* node, int key) {
 		return node; 
 
 	//Update height of the ancestor node */
-	node->height = 1 + max(height(node->left), 
-						height(node->right)); 
+	node->height = 1 + max(height(node->left), height(node->right)); 
 
 	//Get the balance factor of this ancestor node to check whether this node became unbalanced 
 	int balance = getBalance(node); 
